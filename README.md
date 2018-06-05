@@ -7,7 +7,7 @@ Arch linux files to test and debug a Nucleo-F401RE board :)
 Clone the project. Install the following deps:
 
 ```sh
-$ yaourt -Sy arm-none-eabi-gdb arm-none-eabi-binutils arm-none-eabi-gcc arm-none-eabi-gdb arm-none-eabi-newlib openocd
+$ yaourt -Sy arm-none-eabi-gdb arm-none-eabi-binutils arm-none-eabi-gcc arm-none-eabi-gdb arm-none-eabi-newlib openocd netcat
 ```
 
 ## Compile, flash and run
