@@ -9,8 +9,8 @@ main() {
 
     while(1) {
         myled = 1; // LED is ON
-        wait(blink_duration); // 200 ms
+        wait(blink_duration);
         myled = 0; // LED is OFF
-        wait(blink_interval); // 200 ms
+        wait(blink_interval);
     }
 }
