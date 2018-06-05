@@ -26,7 +26,7 @@ $ # To launch on a dedicated terminal
 $ openocd -f openocd.cfg
 $ # Reset the board and the bin
 $ cat reset.txt | nc localhost 4444
-$ gdb ./BUILD/Nucleo_blink_led.elf
+$ arm-none-eabi-gdb ./BUILD/Nucleo_blink_led.elf
 $ (gef) target remote localhost:3333
 $ (gef) # now learn to use gdb :)
 ```
