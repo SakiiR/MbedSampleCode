@@ -10,10 +10,10 @@ Clone the project. Install the following deps:
 $ yaourt -Sy arm-none-eabi-gdb arm-none-eabi-binutils arm-none-eabi-gcc arm-none-eabi-gdb arm-none-eabi-newlib openocd
 ```
 
-## Compile and run
+## Compile, flash and run
 
 ```sh
-$ make && make flash
+$ make && make flash && make clean
 ```
 
 ## Debug with gdb (and gef)
