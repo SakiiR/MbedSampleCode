@@ -4,8 +4,8 @@ DigitalOut myled(LED1);
 
 int
 main() {
-    const int blink_duration = 2;
-    const int blink_interval = 1;
+    const double blink_duration = 0.05;
+    const double blink_interval = 0.1;
 
     while(1) {
         myled = 1; // LED is ON
