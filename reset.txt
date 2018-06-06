@@ -1,5 +1,3 @@
 reset halt
-flash probe 0
-stm32x mass_erase 0
-flash write_bank 0 main.bin 0
+flash write_bank 0 BUILD/Nucleo_blink_led.bin 0
 reset halt
