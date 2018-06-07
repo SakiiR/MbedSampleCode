@@ -39,7 +39,7 @@ VPATH = ..
 ###############################################################################
 # Project settings
 
-PROJECT := Nucleo_blink_led
+PROJECT := project
 
 
 # Project settings
